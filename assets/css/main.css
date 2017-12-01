@@ -1,0 +1,124 @@
+html, body, button, input, select, textarea {
+    /* Set your content font stack here: */
+    font-family: 'Raleway', sans-serif !important;
+}
+
+#hero-background.is-fullheight {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/stock/axe.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.white {
+    color: #ffffff;
+}
+.hero-text {
+    line-height: 2.4rem;
+}
+.background-beige {
+    background-color: #fefefb;
+}
+.top-padding {
+    padding-top: 2%;
+}
+#hatchet-logo {
+    color: white;
+    height: 5rem;
+    fill: white;
+}
+
+.big-paragraph {
+    font-size: 1.2rem;
+}
+.tile img {
+    cursor: pointer;
+}
+
+#gallery {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.gallery-wrapper {
+    height: 35rem;
+    overflow: hidden;
+}
+
+#gallery-overlay {
+    background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(253, 253, 253, 1));
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(253, 253, 253, 1));
+    bottom: 0;
+    display: flex;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    transition: opacity 0.25s;
+    z-index: 1;
+    right: 0;
+    top: 0;
+}
+
+.link-style {
+    color: #3273dc;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link-style:hover {
+    color: black;
+}
+.service-icon {
+    width: 10rem;
+}
+.services {
+    margin-top: 4rem;
+}
+.arrow {
+    height: 3rem;
+}
+.arrow-left {
+    cursor: pointer;
+    left: 1.5rem;
+}
+.arrow-right {
+    cursor: pointer;
+    right: 1.5rem;
+}
+.absolute {
+    position: absolute;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: -5%;
+}
+
+.contact-icon {
+    height: 2rem;
+    margin-bottom: -9px;
+    padding-right: 9px;
+}
+
+.navbar li {
+    color: white;
+    text-align: right;
+    padding-right: 2rem;
+    list-style: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.navbar li:hover {
+    color: #3273dc;
+}
+
+@media only screen and (max-width: 768px) {
+    #hero-background.is-fullheight {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/stock/axe.jpg');
+        background-size:cover;
+        background-position:center;
+    }
+
+    #hero-sec {
+        margin-top: -5%;
+    }
+}

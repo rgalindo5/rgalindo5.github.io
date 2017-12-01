@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bulma.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+<section id="hero-background" class="hero is-fullheight">
+    <nav class="navbar is-transparent">
+        <div class="navbar-end">
+            <div class="navbar-menu">
+                <div class="navbar-item">
+                    <li data-value="#about-section">ABOUT</li>
+                </div>
+
+                <div class="navbar-item">
+                    <li data-value="#services-section">SERVICES</li>
+                </div>
+
+                <div class="navbar-item">
+                    <li data-value="#gallery-section">GALLERY</li>
+                </div>
+
+                <div class="navbar-item">
+                    <li data-value="#contact-section">CONTACT</li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero Section-->
+    <div class="hero-body">
+        <div id="hero-sec" class="container has-text-centered">
+
+            <img id="hatchet-logo" src="/assets/images/stock/hatchet.svg" alt="axe logo">
+            <h1 class="title white hero-text is-size-3">
+                Rosa's Gardening & </br> Landscape Service
+            </h1>
+        </div>
+    </div>
+</section>
+
+
+<!--About section-->
+<section id="about-section" class="section big-paragraph">
+    <div class="container is-fluid">
+        <h1 class="title top-padding has-text-centered is-size-3">About us</h1>
+        <div class="columns">
+            <div class="column is-10 is-offset-1">
+                <p>
+                    Like every good story, ours starts with a mother, Rosa Galindo, and her son, Ricardo Galindo, who
+                    both have
+                    a passion for maintaining a family business and providing honest and excellent service to their
+                    customers.
+                    Rosa started in the landscaping business in 1972 working with landscaping engineers and architects
+                    in San
+                    Mateo, CA.
+
+                    She taught her sons along the way and in 1980 started her own business, Rosa's Garden and Landscape
+                    Service,
+                    with her son Ricardo providing the East Bay with expert landscape and garden services.
+                </p>
+                </br>
+                <p>
+                    As with all things, change is necessary to expand and provide even better services. In 2013, Ricardo
+                    received his degrees in Landscape Architecture and Design Architect from West Valley
+                    College. The business now provides these services to both residential and commercial businesses.
+
+                    As a locally-owned family-run business, we provide a host of services to meet your needs with an
+                    unsurpassed
+                    level of detail and flexibility. We provide weekly, bi-weeky, and monthly services to accommodate
+                    your
+                    schedule for both residual and commercial businesses.
+                </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services-section" class="section background-beige">
+    <div class="container is-fluid">
+        <h1 class="title top-padding has-text-centered is-size-3">Services we Provide</h1>
+        <div class="services">
+            <div class="columns has-text-centered">
+                <div class="column">
+                    <img class="service-icon" src="/assets/images/stock/wheelbarrow.svg" alt="wheelbarrow">
+                    <h4 class="is-size-4">Maintenance</h4>
+                    <ul>
+                        <li>Mowing</li>
+                        <li>Edging</li>
+                        <li>Blowing</li>
+                        <li>Trimming</li>
+                        <li>Pruning</li>
+                        <li>Major Cleanup</li>
+                        <li>Hauling</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <img class="service-icon" src="/assets/images/stock/fence.svg" alt="fence">
+                    <h4 class="is-size-4">New Installations and Design</h4>
+                    <ul>
+                        <li>Landscape design</li>
+                        <li>Sprinkler system installation</li>
+                        <li>Fencing</li>
+                        <li>New Lawn</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <img class="service-icon" src="/assets/images/stock/sprinkler.svg" alt="sprinkler">
+                    <h4 class="is-size-4">Repair</h4>
+                    <ul>
+                        <li>Sprinkler system</li>
+                        <li>Fences</li>
+                        <li>And many others</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="gallery-section" class="section">
+    <div class="container is-fluid">
+        <h1 class="title top-padding has-text-centered is-size-3">Gallery</h1>
+        <div id="gallery" class="gallery-wrapper">
+            <div id="gallery-overlay">
+
+            </div>
+            <div class="tile is-ancestor">
+                <div class="tile is-parent is-vertical is-mobile"></div>
+                <div class="tile is-parent is-vertical is-mobile"></div>
+                <div class="tile is-parent is-vertical is-mobile"></div>
+            </div>
+        </div>
+        <div id="gallery-trigger" class="has-text-centered is-size-5 link-style" data-value="minimized">
+            <span class="is-size-6">&#9660;</span><span> Expand Gallery</span>
+        </div>
+    </div>
+</section>
+
+<!--where image will appear-->
+<div id="gallery-modal" class="modal">
+    <div class="modal-background"></div>
+
+    <!--arrows to control arrow-->
+    <img class="absolute arrow arrow-left" src="/assets/images/stock/left_arrow.svg" alt="left arrow"
+         data-value="decrement">
+    <img class="absolute arrow arrow-right" src="/assets/images/stock/right_arrow.svg" alt="right arrow"
+         data-value="increment">
+
+    <div class="modal-content">
+
+        <p class="image is-4by3">
+            <img id="modal-img" src="https://bulma.io/images/placeholders/1280x960.png" alt="">
+        </p>
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+</div>
+
+<section id="contact-section" class="section background-beige is-medium">
+    <div class="container is-fluid">
+        <h1 class="title top-padding has-text-centered is-size-3">Contact us</h1>
+        <div class="columns is-centered">
+            <div class="column">
+                <p class="is-size-5 has-text-centered">Feel free to inquire about our services.
+                    We'd be happy to give estimates and do business with you. <br>
+                    We are available all year and can accommodate your schedule. </br> Give us a call or email today.</p>
+
+            </div>
+        </div>
+        <div class="columns is-centered">
+            <div class="column has-text-centered">
+                <div class="is-size-4">
+                        <span><img class="contact-icon" src="/assets/images/stock/email.svg" alt="email"></span>
+                        <a href="mailto:rgalindo57@yahoo.com?Subject=Landscaping%20Request">rgalindo57@yahoo.com</a>
+                        </br>
+                        <span><img class="contact-icon" src="/assets/images/stock/phone.svg" alt="email"></span>
+                        <a href="tel:1-510-697-8143"> 510-697-8143</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="map"></div>
+
+
+<section class="section">
+    <div class="container is-fluid has-text-centered">
+        <p class="is-size-6"><b>Copyright &#169; Rosa's Garden and Landscape Service</b></p>
+    </div>
+</section>
+<script src="assets/js/jump.js"></script>
+<script src="assets/js/index.js"></script>
+<script>
+    function initMap() {
+        let googleMapStyles = new google.maps.StyledMapType([
+                {
+                    "featureType": "landscape",
+                    "stylers": [
+                        {
+                            "hue": "#FFA800"
+                        },
+                        {
+                            "saturation": 0
+                        },
+                        {
+                            "lightness": 0
+                        },
+                        {
+                            "gamma": 1
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "stylers": [
+                        {
+                            "hue": "#53FF00"
+                        },
+                        {
+                            "saturation": -73
+                        },
+                        {
+                            "lightness": 40
+                        },
+                        {
+                            "gamma": 1
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.arterial",
+                    "stylers": [
+                        {
+                            "hue": "#FBFF00"
+                        },
+                        {
+                            "saturation": 0
+                        },
+                        {
+                            "lightness": 0
+                        },
+                        {
+                            "gamma": 1
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.local",
+                    "stylers": [
+                        {
+                            "hue": "#00FFFD"
+                        },
+                        {
+                            "saturation": 0
+                        },
+                        {
+                            "lightness": 30
+                        },
+                        {
+                            "gamma": 1
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "stylers": [
+                        {
+                            "hue": "#00BFFF"
+                        },
+                        {
+                            "saturation": 6
+                        },
+                        {
+                            "lightness": 8
+                        },
+                        {
+                            "gamma": 1
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "stylers": [
+                        {
+                            "hue": "#679714"
+                        },
+                        {
+                            "saturation": 33.4
+                        },
+                        {
+                            "lightness": -25.4
+                        },
+                        {
+                            "gamma": 1
+                        }
+                    ]
+                }
+            ],
+            {name: 'Styled Map'});
+
+        var uluru = {lat: 37.6404063, lng: -122.06433229999999};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            center: uluru
+        });
+        var contentString = `
+            <div>
+                <address>
+                    317 Chambosse Drive<br>
+                    Hayward, California, 94544<br>
+                    510-697-8143</br>
+                </address>
+            </div>
+        `;
+
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+        marker.addListener('click', function () {
+            infowindow.open(map, marker);
+        });
+
+        //Associate the styled map with the MapTypeId and set it to display.
+        map.mapTypes.set('styled_map', googleMapStyles);
+        map.setMapTypeId('styled_map');
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACyvH99DeC0gvayoVSbV7YDiXhtBdo2FY&callback=initMap">
+</script>
+</body>
+</html>
