@@ -1,5 +1,5 @@
 /* ******* CHANGE PHOTO_AMOUNT ONLY ************ */
-const PHOTO_AMOUNT = 26;
+const PHOTO_AMOUNT = 53;
 const modal = document.getElementById("gallery-modal");
 const modalImg = document.getElementById("modal-img");
 let selectedPhoto = "";
